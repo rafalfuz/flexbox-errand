@@ -2,7 +2,8 @@ import React from "react";
 import "../styles/App.css";
 import Header from "./Header";
 import Navigation from "./Navigation";
-import Page from "./Page";
+import MainContent from "./MainContent";
+import SecondaryContent from "./SecondaryContent";
 import Footer from "./Footer";
 
 class App extends React.Component {
@@ -11,7 +12,8 @@ class App extends React.Component {
       <div className="app">
         <Header />
         <Navigation />
-        <Page />
+        <MainContent />
+        <SecondaryContent />
         <Footer />
       </div>
     );

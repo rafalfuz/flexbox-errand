@@ -1,0 +1,8 @@
+.menu {
+    background-color: chocolate;
+}
+
+.menu__button {
+    width: 50px;
+    height: 20px;
+}
