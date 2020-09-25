@@ -8,3 +8,8 @@ body {
     background-color: blueviolet;
     font-size: 10px;
 }
+
+button {
+    width: 25px;
+    height: 10px;
+}

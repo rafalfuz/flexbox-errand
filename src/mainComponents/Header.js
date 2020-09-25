@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles/header.css";
+import "../styles/header.scss";
 
 const Header = () => {
   return (
     <header className="header app__header">
-      <div className="header__logo-container">
+      <div className="logo-container header__logo-container">
         <img className="logo-container__image" alt="img"></img>
         <div className="logo-container__title logo-container__title--large">
           duzy napis
