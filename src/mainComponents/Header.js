@@ -3,28 +3,24 @@ import "../styles/header.scss";
 
 const Header = () => {
   return (
-    <header className="header app__header">
-      <div className="logo-container header__logo-container">
-        <img className="logo-container__image" alt="img"></img>
-        <div className="logo-container__title logo-container__title--large">
-          duzy napis
-        </div>
-        <div className="logo-container__title logo-container__title--small">
-          maly napis
-        </div>
+    <header className="header">
+      <div className="header__logo-container">
+        <img className="header__image" alt="img"></img>
+        <div className="header__title header__title--large">duzy napis</div>
+        <div className="header__title header__title--small">maly napis</div>
       </div>
-      <div className="searcher header__searcher">
+      <div className="header__searcher">
         <input
-          className="searcher__textpool"
+          className="header__input"
           type="text"
           placeholder="Czego szukasz?"
         ></input>
-        <button className="button searcher__button">Szukaj</button>
+        <button className="header__button">Szukaj</button>
       </div>
-      <div className="settings header__settings">
-        <img className="settings__btn" alt="img"></img>
-        <img className="settings__btn" alt="img"></img>
-        <img className="settings__btn" alt="img"></img>
+      <div className="header__settings">
+        <img className="header__setting-icon" alt="img"></img>
+        <img className="header__setting-icon" alt="img"></img>
+        <img className="header__setting-icon" alt="img"></img>
       </div>
     </header>
   );

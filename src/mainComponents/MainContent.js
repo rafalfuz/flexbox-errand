@@ -33,7 +33,7 @@ const MainContent = () => {
   ));
 
   return (
-    <div className="main-content app__main-content">
+    <div className="main-content">
       <h1 className="main-content__title">Polecamy</h1>
       {article}
     </div>

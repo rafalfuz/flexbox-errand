@@ -18,9 +18,7 @@ const SecondaryContent = () => {
     <ItemComponent img={item.img} title={item.title} />
   ));
 
-  return (
-    <div className="secondary-content app__secondary-content">{supArt}</div>
-  );
+  return <div className="secondary-content">{supArt}</div>;
 };
 
 export default SecondaryContent;
