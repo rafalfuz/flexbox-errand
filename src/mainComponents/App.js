@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/App.css";
+import "../styles/App.scss";
 import Header from "./Header";
 import Navigation from "./Navigation";
 import MainContent from "./MainContent";

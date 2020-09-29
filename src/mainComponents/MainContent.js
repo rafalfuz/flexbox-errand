@@ -33,10 +33,10 @@ const MainContent = () => {
   ));
 
   return (
-    <div className="main-content">
+    <section className="main-content">
       <h1 className="main-content__title">Polecamy</h1>
       {article}
-    </div>
+    </section>
   );
 };
 
