@@ -1,23 +1,23 @@
 import React from "react";
 import Article from "./supportComponents/Article";
-import "../styles/mainContent.css";
+import "../styles/mainContent.scss";
 
 const MainContent = () => {
   const mainArticles = [
     {
-      id: 1,
-      img: "",
+      id: "1",
+      img: "https://placeimg.com/640/480/arch",
       title: "Tytul pierwszy",
       text:
-        "First Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra nisl in porta consectetur. Morbi ornare risus eget lacinia dictum.",
+        "First Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra nisl in porta consectetur. Morbi ornare risus eget lacinia dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra nisl in porta consectetur. Morbi ornare risus eget lacinia dictum.",
       button: true,
     },
     {
       id: 2,
-      img: "",
+      img: "https://placeimg.com/640/480/tech",
       title: "Tytul drugi",
       text:
-        "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra nisl in porta consectetur. Morbi ornare risus eget lacinia dictum.",
+        "Second Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra nisl in porta consectetur. Morbi ornare risus eget lacinia dictum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra nisl in porta consectetur. Morbi ornare risus eget lacinia dictum.",
       button: true,
     },
   ];
@@ -25,9 +25,9 @@ const MainContent = () => {
   const article = mainArticles.map((mainArticle) => (
     <Article
       img={mainArticle.img}
-      id={mainArticle.id}
+      key={mainArticle.id}
       title={mainArticle.title}
-      text={mainArticle.title}
+      text={mainArticle.text}
       btn={mainArticle.button}
     />
   ));
